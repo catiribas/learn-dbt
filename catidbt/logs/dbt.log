@@ -1,0 +1,875 @@
+
+
+============================== 2022-08-05 09:48:13.523487 | 8521bcd8-5b93-4584-ad6d-c43f6fb9eece ==============================
+[0m09:48:13.523487 [info ] [MainThread]: Running with dbt=1.2.0
+[0m09:48:13.525494 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:48:13.525494 [debug] [MainThread]: Tracking: tracking
+[0m09:48:13.605664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C824370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C5A3580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C824280>]}
+[0m09:48:13.650318 [debug] [MainThread]: Executing "git --help"
+[0m09:48:13.759978 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:48:13.759978 [debug] [MainThread]: STDERR: "b''"
+[0m09:48:13.763968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C81F940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C81FE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354C81F4F0>]}
+
+
+============================== 2022-08-05 09:49:21.014775 | 303f89f1-f067-4d13-be5d-444b1925de19 ==============================
+[0m09:49:21.014775 [info ] [MainThread]: Running with dbt=1.2.0
+[0m09:49:21.016397 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:49:21.016397 [debug] [MainThread]: Tracking: tracking
+[0m09:49:21.090822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070EA4100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070EA4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070EA4310>]}
+[0m09:49:21.225534 [debug] [MainThread]: Executing "git --help"
+[0m09:49:21.311870 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:49:21.312872 [debug] [MainThread]: STDERR: "b''"
+[0m09:49:21.318338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070F8E2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070F8E820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022070FAB340>]}
+
+
+============================== 2022-08-05 09:49:57.296258 | 1701f48d-589c-4b15-99eb-b5e15865c4ba ==============================
+[0m09:49:57.296258 [info ] [MainThread]: Running with dbt=1.2.0
+[0m09:49:57.297256 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m09:49:57.297256 [debug] [MainThread]: Tracking: tracking
+[0m09:49:57.373054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096A24100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096A24190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096A24310>]}
+[0m09:49:57.478772 [debug] [MainThread]: Executing "git --help"
+[0m09:49:57.564545 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:49:57.564545 [debug] [MainThread]: STDERR: "b''"
+[0m09:49:57.573521 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m09:49:57.573521 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:49:57.574518 [debug] [MainThread]: On debug: select 1 as id
+[0m09:49:57.574518 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:49:57.679240 [debug] [MainThread]: SQL status: SELECT 1 in 0.1 seconds
+[0m09:49:57.680238 [debug] [MainThread]: On debug: Close
+[0m09:49:57.683230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096AF5910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096B057C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023096B05C70>]}
+[0m09:49:58.188887 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-08-05 10:07:40.228377 | 3523621c-984f-4add-91ba-e2ef00b4286b ==============================
+[0m10:07:40.228377 [info ] [MainThread]: Running with dbt=1.2.0
+[0m10:07:40.229374 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m10:07:40.229374 [debug] [MainThread]: Tracking: tracking
+[0m10:07:40.310161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E02FE820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E02FEBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E02FE8E0>]}
+[0m10:07:40.326118 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m10:07:40.326118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E02FEBB0>]}
+[0m10:07:40.465579 [debug] [MainThread]: Parsing macros\adapters.sql
+[0m10:07:40.512454 [debug] [MainThread]: Parsing macros\catalog.sql
+[0m10:07:40.516456 [debug] [MainThread]: Parsing macros\relations.sql
+[0m10:07:40.519436 [debug] [MainThread]: Parsing macros\materializations\snapshot_merge.sql
+[0m10:07:40.522430 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m10:07:40.523426 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m10:07:40.524430 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m10:07:40.535408 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m10:07:40.538387 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m10:07:40.540381 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m10:07:40.542382 [debug] [MainThread]: Parsing macros\adapters\apply_grants.sql
+[0m10:07:40.564318 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+[0m10:07:40.579277 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+[0m10:07:40.584264 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+[0m10:07:40.588254 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+[0m10:07:40.599225 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+[0m10:07:40.607217 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+[0m10:07:40.631614 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+[0m10:07:40.634607 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+[0m10:07:40.648582 [debug] [MainThread]: Parsing macros\etc\statement.sql
+[0m10:07:40.656547 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+[0m10:07:40.658542 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+[0m10:07:40.660537 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+[0m10:07:40.661535 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+[0m10:07:40.662532 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+[0m10:07:40.664526 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+[0m10:07:40.667518 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+[0m10:07:40.671507 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+[0m10:07:40.674501 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+[0m10:07:40.680485 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+[0m10:07:40.688462 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+[0m10:07:40.702426 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+[0m10:07:40.704420 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+[0m10:07:40.725872 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+[0m10:07:40.745819 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+[0m10:07:40.749808 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+[0m10:07:40.756790 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+[0m10:07:40.761777 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+[0m10:07:40.765766 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+[0m10:07:40.767761 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+[0m10:07:40.775739 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+[0m10:07:40.800673 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+[0m10:07:40.812642 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+[0m10:07:40.837018 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+[0m10:07:40.853972 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+[0m10:07:40.855966 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+[0m10:07:40.882896 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+[0m10:07:40.884891 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+[0m10:07:40.891872 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+[0m10:07:40.894864 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m10:07:40.897857 [debug] [MainThread]: Parsing macros\utils\bool_or.sql
+[0m10:07:40.898854 [debug] [MainThread]: Parsing macros\utils\cast_bool_to_text.sql
+[0m10:07:40.900848 [debug] [MainThread]: Parsing macros\utils\concat.sql
+[0m10:07:40.901846 [debug] [MainThread]: Parsing macros\utils\data_types.sql
+[0m10:07:40.914812 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m10:07:40.916806 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m10:07:40.918801 [debug] [MainThread]: Parsing macros\utils\date_trunc.sql
+[0m10:07:40.920795 [debug] [MainThread]: Parsing macros\utils\escape_single_quotes.sql
+[0m10:07:40.923300 [debug] [MainThread]: Parsing macros\utils\except.sql
+[0m10:07:40.924297 [debug] [MainThread]: Parsing macros\utils\hash.sql
+[0m10:07:40.926291 [debug] [MainThread]: Parsing macros\utils\intersect.sql
+[0m10:07:40.927288 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m10:07:40.930281 [debug] [MainThread]: Parsing macros\utils\length.sql
+[0m10:07:40.932276 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m10:07:40.935268 [debug] [MainThread]: Parsing macros\utils\literal.sql
+[0m10:07:40.937261 [debug] [MainThread]: Parsing macros\utils\position.sql
+[0m10:07:40.939257 [debug] [MainThread]: Parsing macros\utils\replace.sql
+[0m10:07:40.940255 [debug] [MainThread]: Parsing macros\utils\right.sql
+[0m10:07:40.942249 [debug] [MainThread]: Parsing macros\utils\safe_cast.sql
+[0m10:07:40.944244 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m10:07:40.948233 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+[0m10:07:41.306321 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m10:07:41.321284 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m10:07:41.401964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DFC19460>]}
+[0m10:07:41.416907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E039C9A0>]}
+[0m10:07:41.417937 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m10:07:41.417937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E0367BE0>]}
+[0m10:07:41.419898 [info ] [MainThread]: 
+[0m10:07:41.420929 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:07:41.422890 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati"
+[0m10:07:41.435859 [debug] [ThreadPool]: Using postgres connection "list_cati"
+[0m10:07:41.435859 [debug] [ThreadPool]: On list_cati: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:07:41.435859 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:07:41.539936 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.1 seconds
+[0m10:07:41.541925 [debug] [ThreadPool]: On list_cati: Close
+[0m10:07:41.544887 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati_landing_zone"
+[0m10:07:41.555866 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:07:41.555866 [debug] [ThreadPool]: On list_cati_landing_zone: BEGIN
+[0m10:07:41.556855 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:07:41.649307 [debug] [ThreadPool]: SQL status: BEGIN in 0.09 seconds
+[0m10:07:41.650277 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:07:41.650277 [debug] [ThreadPool]: On list_cati_landing_zone: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati_landing_zone"} */
+select
+      'cati' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'landing_zone'
+    union all
+    select
+      'cati' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'landing_zone'
+  
+[0m10:07:41.661054 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.01 seconds
+[0m10:07:41.662050 [debug] [ThreadPool]: On list_cati_landing_zone: ROLLBACK
+[0m10:07:41.663047 [debug] [ThreadPool]: On list_cati_landing_zone: Close
+[0m10:07:41.670028 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:41.670028 [debug] [MainThread]: On master: BEGIN
+[0m10:07:41.670028 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:07:41.755902 [debug] [MainThread]: SQL status: BEGIN in 0.09 seconds
+[0m10:07:41.756872 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:41.756872 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m10:07:41.764920 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m10:07:41.766880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1DFBF5B80>]}
+[0m10:07:41.766880 [debug] [MainThread]: On master: ROLLBACK
+[0m10:07:41.767880 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:41.767880 [debug] [MainThread]: On master: BEGIN
+[0m10:07:41.768876 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:07:41.768876 [debug] [MainThread]: On master: COMMIT
+[0m10:07:41.768876 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:41.769902 [debug] [MainThread]: On master: COMMIT
+[0m10:07:41.769902 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:07:41.769902 [debug] [MainThread]: On master: Close
+[0m10:07:41.770882 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:07:41.771870 [info ] [MainThread]: 
+[0m10:07:41.788822 [debug] [Thread-1  ]: Began running node model.catidbt.my_first_dbt_model
+[0m10:07:41.788822 [info ] [Thread-1  ]: 1 of 2 START table model landing_zone.my_first_dbt_model ....................... [RUN]
+[0m10:07:41.789846 [debug] [Thread-1  ]: Acquiring new postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:07:41.789846 [debug] [Thread-1  ]: Began compiling node model.catidbt.my_first_dbt_model
+[0m10:07:41.790843 [debug] [Thread-1  ]: Compiling model.catidbt.my_first_dbt_model
+[0m10:07:41.793843 [debug] [Thread-1  ]: Writing injected SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:07:41.798797 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:07:41.798797 [debug] [Thread-1  ]: Began executing node model.catidbt.my_first_dbt_model
+[0m10:07:41.850173 [debug] [Thread-1  ]: Writing runtime SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:07:41.854176 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:07:41.854176 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: BEGIN
+[0m10:07:41.854176 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m10:07:41.941929 [debug] [Thread-1  ]: SQL status: BEGIN in 0.09 seconds
+[0m10:07:41.941929 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:07:41.941929 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_first_dbt_model"} */
+
+
+  create  table "cati"."landing_zone"."my_first_dbt_model__dbt_tmp"
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+[0m10:07:41.954509 [debug] [Thread-1  ]: Postgres adapter: Postgres error: permiso denegado al esquema landing_zone
+
+[0m10:07:41.954509 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: ROLLBACK
+[0m10:07:41.955505 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:07:41.955505 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: Close
+[0m10:07:41.956543 [debug] [Thread-1  ]: Database Error in model my_first_dbt_model (models\example\my_first_dbt_model.sql)
+  permiso denegado al esquema landing_zone
+  compiled SQL at target\run\catidbt\models\example\my_first_dbt_model.sql
+[0m10:07:41.956543 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3523621c-984f-4add-91ba-e2ef00b4286b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E02C2A90>]}
+[0m10:07:41.956543 [error] [Thread-1  ]: 1 of 2 ERROR creating table model landing_zone.my_first_dbt_model .............. [[31mERROR[0m in 0.17s]
+[0m10:07:41.958535 [debug] [Thread-1  ]: Finished running node model.catidbt.my_first_dbt_model
+[0m10:07:41.960504 [debug] [Thread-1  ]: Began running node model.catidbt.my_second_dbt_model
+[0m10:07:41.960504 [info ] [Thread-1  ]: 2 of 2 SKIP relation landing_zone.my_second_dbt_model .......................... [[33mSKIP[0m]
+[0m10:07:41.961489 [debug] [Thread-1  ]: Finished running node model.catidbt.my_second_dbt_model
+[0m10:07:41.963484 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:07:41.963484 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:41.964481 [debug] [MainThread]: On master: BEGIN
+[0m10:07:41.964481 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:07:42.053285 [debug] [MainThread]: SQL status: BEGIN in 0.09 seconds
+[0m10:07:42.054244 [debug] [MainThread]: On master: COMMIT
+[0m10:07:42.054244 [debug] [MainThread]: Using postgres connection "master"
+[0m10:07:42.054244 [debug] [MainThread]: On master: COMMIT
+[0m10:07:42.055268 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:07:42.055268 [debug] [MainThread]: On master: Close
+[0m10:07:42.055268 [info ] [MainThread]: 
+[0m10:07:42.056237 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.63 seconds (0.63s).
+[0m10:07:42.057236 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:07:42.057236 [debug] [MainThread]: Connection 'list_cati' was properly closed.
+[0m10:07:42.057236 [debug] [MainThread]: Connection 'list_cati_landing_zone' was properly closed.
+[0m10:07:42.057236 [debug] [MainThread]: Connection 'model.catidbt.my_first_dbt_model' was properly closed.
+[0m10:07:42.068697 [info ] [MainThread]: 
+[0m10:07:42.068697 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m10:07:42.069732 [info ] [MainThread]: 
+[0m10:07:42.069732 [error] [MainThread]: [33mDatabase Error in model my_first_dbt_model (models\example\my_first_dbt_model.sql)[0m
+[0m10:07:42.070733 [error] [MainThread]:   permiso denegado al esquema landing_zone
+[0m10:07:42.070733 [error] [MainThread]:   compiled SQL at target\run\catidbt\models\example\my_first_dbt_model.sql
+[0m10:07:42.071690 [info ] [MainThread]: 
+[0m10:07:42.072627 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m10:07:42.073627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E03D1FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E064E1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1E064E430>]}
+
+
+============================== 2022-08-05 10:40:09.560829 | c55a21a0-024f-4583-9998-6f2078009081 ==============================
+[0m10:40:09.560829 [info ] [MainThread]: Running with dbt=1.2.0
+[0m10:40:09.561837 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m10:40:09.562824 [debug] [MainThread]: Tracking: tracking
+[0m10:40:09.639931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE77970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE77D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE77A30>]}
+[0m10:40:09.664863 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:40:09.664863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE1C250>]}
+[0m10:40:09.754626 [debug] [MainThread]: Parsing macros\adapters.sql
+[0m10:40:09.788561 [debug] [MainThread]: Parsing macros\catalog.sql
+[0m10:40:09.791553 [debug] [MainThread]: Parsing macros\relations.sql
+[0m10:40:09.793549 [debug] [MainThread]: Parsing macros\materializations\snapshot_merge.sql
+[0m10:40:09.794564 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m10:40:09.795542 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m10:40:09.796551 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m10:40:09.804533 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m10:40:09.806527 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m10:40:09.808520 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m10:40:09.809507 [debug] [MainThread]: Parsing macros\adapters\apply_grants.sql
+[0m10:40:09.828430 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+[0m10:40:09.841432 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+[0m10:40:09.845384 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+[0m10:40:09.848414 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+[0m10:40:09.858350 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+[0m10:40:09.863336 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+[0m10:40:09.881289 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+[0m10:40:09.883283 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+[0m10:40:09.893284 [debug] [MainThread]: Parsing macros\etc\statement.sql
+[0m10:40:09.899267 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+[0m10:40:09.900265 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+[0m10:40:09.901262 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+[0m10:40:09.902259 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+[0m10:40:09.903258 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+[0m10:40:09.905225 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+[0m10:40:09.907220 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+[0m10:40:09.910212 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+[0m10:40:09.912207 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+[0m10:40:09.941129 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+[0m10:40:09.946116 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+[0m10:40:09.961106 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+[0m10:40:09.963099 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+[0m10:40:09.985049 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+[0m10:40:10.006955 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+[0m10:40:10.010971 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+[0m10:40:10.018923 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+[0m10:40:10.023910 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+[0m10:40:10.026902 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+[0m10:40:10.028897 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+[0m10:40:10.035878 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+[0m10:40:10.059814 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+[0m10:40:10.069816 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+[0m10:40:10.086742 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+[0m10:40:10.102701 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+[0m10:40:10.104695 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+[0m10:40:10.127635 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+[0m10:40:10.129663 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+[0m10:40:10.136610 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+[0m10:40:10.138605 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m10:40:10.140627 [debug] [MainThread]: Parsing macros\utils\bool_or.sql
+[0m10:40:10.141624 [debug] [MainThread]: Parsing macros\utils\cast_bool_to_text.sql
+[0m10:40:10.143625 [debug] [MainThread]: Parsing macros\utils\concat.sql
+[0m10:40:10.144624 [debug] [MainThread]: Parsing macros\utils\data_types.sql
+[0m10:40:10.152603 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m10:40:10.154596 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m10:40:10.156590 [debug] [MainThread]: Parsing macros\utils\date_trunc.sql
+[0m10:40:10.157590 [debug] [MainThread]: Parsing macros\utils\escape_single_quotes.sql
+[0m10:40:10.159549 [debug] [MainThread]: Parsing macros\utils\except.sql
+[0m10:40:10.160579 [debug] [MainThread]: Parsing macros\utils\hash.sql
+[0m10:40:10.162575 [debug] [MainThread]: Parsing macros\utils\intersect.sql
+[0m10:40:10.163574 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m10:40:10.165573 [debug] [MainThread]: Parsing macros\utils\length.sql
+[0m10:40:10.168526 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m10:40:10.170520 [debug] [MainThread]: Parsing macros\utils\literal.sql
+[0m10:40:10.172543 [debug] [MainThread]: Parsing macros\utils\position.sql
+[0m10:40:10.173545 [debug] [MainThread]: Parsing macros\utils\replace.sql
+[0m10:40:10.175508 [debug] [MainThread]: Parsing macros\utils\right.sql
+[0m10:40:10.177501 [debug] [MainThread]: Parsing macros\utils\safe_cast.sql
+[0m10:40:10.178527 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m10:40:10.182497 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+[0m10:40:10.499647 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m10:40:10.515636 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m10:40:10.589686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFEC60A0>]}
+[0m10:40:10.600656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE1C070>]}
+[0m10:40:10.600656 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m10:40:10.601950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFE77D30>]}
+[0m10:40:10.602977 [info ] [MainThread]: 
+[0m10:40:10.604531 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:40:10.607441 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati"
+[0m10:40:10.619778 [debug] [ThreadPool]: Using postgres connection "list_cati"
+[0m10:40:10.619778 [debug] [ThreadPool]: On list_cati: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:40:10.619778 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:40:10.713264 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.09 seconds
+[0m10:40:10.714237 [debug] [ThreadPool]: On list_cati: Close
+[0m10:40:10.716230 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati_landing_zone"
+[0m10:40:10.723211 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:40:10.723211 [debug] [ThreadPool]: On list_cati_landing_zone: BEGIN
+[0m10:40:10.723211 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:40:10.805759 [debug] [ThreadPool]: SQL status: BEGIN in 0.08 seconds
+[0m10:40:10.805759 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:40:10.805759 [debug] [ThreadPool]: On list_cati_landing_zone: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati_landing_zone"} */
+select
+      'cati' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'landing_zone'
+    union all
+    select
+      'cati' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'landing_zone'
+  
+[0m10:40:10.810744 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m10:40:10.811706 [debug] [ThreadPool]: On list_cati_landing_zone: ROLLBACK
+[0m10:40:10.812703 [debug] [ThreadPool]: On list_cati_landing_zone: Close
+[0m10:40:10.817723 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:10.817723 [debug] [MainThread]: On master: BEGIN
+[0m10:40:10.817723 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:40:10.898910 [debug] [MainThread]: SQL status: BEGIN in 0.08 seconds
+[0m10:40:10.898910 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:10.899881 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m10:40:10.904894 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m10:40:10.905892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFEC6A30>]}
+[0m10:40:10.905892 [debug] [MainThread]: On master: ROLLBACK
+[0m10:40:10.906890 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:10.906890 [debug] [MainThread]: On master: BEGIN
+[0m10:40:10.907859 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:40:10.907859 [debug] [MainThread]: On master: COMMIT
+[0m10:40:10.907859 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:10.907859 [debug] [MainThread]: On master: COMMIT
+[0m10:40:10.908914 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:40:10.908914 [debug] [MainThread]: On master: Close
+[0m10:40:10.908914 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:40:10.909914 [info ] [MainThread]: 
+[0m10:40:10.919409 [debug] [Thread-1  ]: Began running node model.catidbt.my_first_dbt_model
+[0m10:40:10.920425 [info ] [Thread-1  ]: 1 of 2 START table model landing_zone.my_first_dbt_model ....................... [RUN]
+[0m10:40:10.921424 [debug] [Thread-1  ]: Acquiring new postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:40:10.922387 [debug] [Thread-1  ]: Began compiling node model.catidbt.my_first_dbt_model
+[0m10:40:10.922387 [debug] [Thread-1  ]: Compiling model.catidbt.my_first_dbt_model
+[0m10:40:10.925413 [debug] [Thread-1  ]: Writing injected SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:40:10.926410 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:40:10.926410 [debug] [Thread-1  ]: Began executing node model.catidbt.my_first_dbt_model
+[0m10:40:10.983231 [debug] [Thread-1  ]: Writing runtime SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:40:10.984223 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:40:10.985221 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: BEGIN
+[0m10:40:10.985221 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m10:40:11.071991 [debug] [Thread-1  ]: SQL status: BEGIN in 0.09 seconds
+[0m10:40:11.073015 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:40:11.073015 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_first_dbt_model"} */
+
+
+  create  table "cati"."landing_zone"."my_first_dbt_model__dbt_tmp"
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+[0m10:40:11.074022 [debug] [Thread-1  ]: Postgres adapter: Postgres error: permiso denegado al esquema landing_zone
+
+[0m10:40:11.074022 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: ROLLBACK
+[0m10:40:11.074990 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:40:11.074990 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: Close
+[0m10:40:11.075980 [debug] [Thread-1  ]: Database Error in model my_first_dbt_model (models\example\my_first_dbt_model.sql)
+  permiso denegado al esquema landing_zone
+  compiled SQL at target\run\catidbt\models\example\my_first_dbt_model.sql
+[0m10:40:11.075980 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c55a21a0-024f-4583-9998-6f2078009081', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DB02062E0>]}
+[0m10:40:11.076981 [error] [Thread-1  ]: 1 of 2 ERROR creating table model landing_zone.my_first_dbt_model .............. [[31mERROR[0m in 0.15s]
+[0m10:40:11.078972 [debug] [Thread-1  ]: Finished running node model.catidbt.my_first_dbt_model
+[0m10:40:11.079976 [debug] [Thread-1  ]: Began running node model.catidbt.my_second_dbt_model
+[0m10:40:11.079976 [info ] [Thread-1  ]: 2 of 2 SKIP relation landing_zone.my_second_dbt_model .......................... [[33mSKIP[0m]
+[0m10:40:11.081979 [debug] [Thread-1  ]: Finished running node model.catidbt.my_second_dbt_model
+[0m10:40:11.082961 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:40:11.083985 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:11.083985 [debug] [MainThread]: On master: BEGIN
+[0m10:40:11.083985 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:40:11.332057 [debug] [MainThread]: SQL status: BEGIN in 0.25 seconds
+[0m10:40:11.333032 [debug] [MainThread]: On master: COMMIT
+[0m10:40:11.333032 [debug] [MainThread]: Using postgres connection "master"
+[0m10:40:11.333032 [debug] [MainThread]: On master: COMMIT
+[0m10:40:11.334024 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:40:11.334024 [debug] [MainThread]: On master: Close
+[0m10:40:11.335022 [info ] [MainThread]: 
+[0m10:40:11.335022 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.73 seconds (0.73s).
+[0m10:40:11.337018 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:40:11.338036 [debug] [MainThread]: Connection 'list_cati' was properly closed.
+[0m10:40:11.338036 [debug] [MainThread]: Connection 'list_cati_landing_zone' was properly closed.
+[0m10:40:11.338036 [debug] [MainThread]: Connection 'model.catidbt.my_first_dbt_model' was properly closed.
+[0m10:40:11.349983 [info ] [MainThread]: 
+[0m10:40:11.351252 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m10:40:11.352814 [info ] [MainThread]: 
+[0m10:40:11.352814 [error] [MainThread]: [33mDatabase Error in model my_first_dbt_model (models\example\my_first_dbt_model.sql)[0m
+[0m10:40:11.355809 [error] [MainThread]:   permiso denegado al esquema landing_zone
+[0m10:40:11.356806 [error] [MainThread]:   compiled SQL at target\run\catidbt\models\example\my_first_dbt_model.sql
+[0m10:40:11.360639 [info ] [MainThread]: 
+[0m10:40:11.361655 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[0m10:40:11.362637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFED68E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFFD9DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021DAFFD9D00>]}
+
+
+============================== 2022-08-05 10:44:59.027806 | f976f3bb-c8c8-4f93-a66e-4978470afecf ==============================
+[0m10:44:59.027806 [info ] [MainThread]: Running with dbt=1.2.0
+[0m10:44:59.029288 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\cati.ribas\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m10:44:59.029288 [debug] [MainThread]: Tracking: tracking
+[0m10:44:59.109080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BC7C8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BC7CC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BC7C970>]}
+[0m10:44:59.211805 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:44:59.212836 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:44:59.220815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BD74B20>]}
+[0m10:44:59.229801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BCF3F10>]}
+[0m10:44:59.230788 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m10:44:59.231505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BCF3FD0>]}
+[0m10:44:59.233503 [info ] [MainThread]: 
+[0m10:44:59.234500 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:44:59.236496 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati"
+[0m10:44:59.249461 [debug] [ThreadPool]: Using postgres connection "list_cati"
+[0m10:44:59.249461 [debug] [ThreadPool]: On list_cati: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m10:44:59.249461 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:44:59.345994 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.1 seconds
+[0m10:44:59.347029 [debug] [ThreadPool]: On list_cati: Close
+[0m10:44:59.349985 [debug] [ThreadPool]: Acquiring new postgres connection "list_cati_landing_zone"
+[0m10:44:59.357962 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:44:59.357962 [debug] [ThreadPool]: On list_cati_landing_zone: BEGIN
+[0m10:44:59.357962 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m10:44:59.550218 [debug] [ThreadPool]: SQL status: BEGIN in 0.19 seconds
+[0m10:44:59.550218 [debug] [ThreadPool]: Using postgres connection "list_cati_landing_zone"
+[0m10:44:59.550218 [debug] [ThreadPool]: On list_cati_landing_zone: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "list_cati_landing_zone"} */
+select
+      'cati' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'landing_zone'
+    union all
+    select
+      'cati' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'landing_zone'
+  
+[0m10:44:59.555205 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m10:44:59.556235 [debug] [ThreadPool]: On list_cati_landing_zone: ROLLBACK
+[0m10:44:59.557206 [debug] [ThreadPool]: On list_cati_landing_zone: Close
+[0m10:44:59.589115 [debug] [MainThread]: Using postgres connection "master"
+[0m10:44:59.589115 [debug] [MainThread]: On master: BEGIN
+[0m10:44:59.590112 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:44:59.667559 [debug] [MainThread]: SQL status: BEGIN in 0.08 seconds
+[0m10:44:59.667559 [debug] [MainThread]: Using postgres connection "master"
+[0m10:44:59.667559 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m10:44:59.673571 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m10:44:59.674542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964B5628B0>]}
+[0m10:44:59.675539 [debug] [MainThread]: On master: ROLLBACK
+[0m10:44:59.675539 [debug] [MainThread]: Using postgres connection "master"
+[0m10:44:59.675539 [debug] [MainThread]: On master: BEGIN
+[0m10:44:59.676537 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m10:44:59.676537 [debug] [MainThread]: On master: COMMIT
+[0m10:44:59.676537 [debug] [MainThread]: Using postgres connection "master"
+[0m10:44:59.677572 [debug] [MainThread]: On master: COMMIT
+[0m10:44:59.677572 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:44:59.677572 [debug] [MainThread]: On master: Close
+[0m10:44:59.678558 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m10:44:59.679531 [info ] [MainThread]: 
+[0m10:44:59.688408 [debug] [Thread-1  ]: Began running node model.catidbt.my_first_dbt_model
+[0m10:44:59.689409 [info ] [Thread-1  ]: 1 of 2 START table model landing_zone.my_first_dbt_model ....................... [RUN]
+[0m10:44:59.690417 [debug] [Thread-1  ]: Acquiring new postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.690417 [debug] [Thread-1  ]: Began compiling node model.catidbt.my_first_dbt_model
+[0m10:44:59.690417 [debug] [Thread-1  ]: Compiling model.catidbt.my_first_dbt_model
+[0m10:44:59.694423 [debug] [Thread-1  ]: Writing injected SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:44:59.695420 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:44:59.695420 [debug] [Thread-1  ]: Began executing node model.catidbt.my_first_dbt_model
+[0m10:44:59.741297 [debug] [Thread-1  ]: Writing runtime SQL for node "model.catidbt.my_first_dbt_model"
+[0m10:44:59.742302 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.742302 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: BEGIN
+[0m10:44:59.743298 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m10:44:59.820734 [debug] [Thread-1  ]: SQL status: BEGIN in 0.08 seconds
+[0m10:44:59.820734 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.820734 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_first_dbt_model"} */
+
+
+  create  table "cati"."landing_zone"."my_first_dbt_model__dbt_tmp"
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+[0m10:44:59.857575 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.04 seconds
+[0m10:44:59.864590 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.864590 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_first_dbt_model"} */
+alter table "cati"."landing_zone"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+[0m10:44:59.866579 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m10:44:59.890488 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: COMMIT
+[0m10:44:59.891485 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.891485 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: COMMIT
+[0m10:44:59.893098 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m10:44:59.899112 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_first_dbt_model"
+[0m10:44:59.899112 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_first_dbt_model"} */
+drop table if exists "cati"."landing_zone"."my_first_dbt_model__dbt_backup" cascade
+[0m10:44:59.901265 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+[0m10:44:59.902295 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:44:59.902295 [debug] [Thread-1  ]: On model.catidbt.my_first_dbt_model: Close
+[0m10:44:59.903289 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BDE5220>]}
+[0m10:44:59.903289 [info ] [Thread-1  ]: 1 of 2 OK created table model landing_zone.my_first_dbt_model .................. [[32mSELECT 2[0m in 0.21s]
+[0m10:44:59.906122 [debug] [Thread-1  ]: Finished running node model.catidbt.my_first_dbt_model
+[0m10:44:59.907118 [debug] [Thread-1  ]: Began running node model.catidbt.my_second_dbt_model
+[0m10:44:59.907118 [info ] [Thread-1  ]: 2 of 2 START view model landing_zone.my_second_dbt_model ....................... [RUN]
+[0m10:44:59.908754 [debug] [Thread-1  ]: Acquiring new postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:44:59.908754 [debug] [Thread-1  ]: Began compiling node model.catidbt.my_second_dbt_model
+[0m10:44:59.908754 [debug] [Thread-1  ]: Compiling model.catidbt.my_second_dbt_model
+[0m10:44:59.911780 [debug] [Thread-1  ]: Writing injected SQL for node "model.catidbt.my_second_dbt_model"
+[0m10:44:59.912778 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:44:59.913788 [debug] [Thread-1  ]: Began executing node model.catidbt.my_second_dbt_model
+[0m10:44:59.936681 [debug] [Thread-1  ]: Writing runtime SQL for node "model.catidbt.my_second_dbt_model"
+[0m10:44:59.938676 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:44:59.938676 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: BEGIN
+[0m10:44:59.938676 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m10:45:00.020865 [debug] [Thread-1  ]: SQL status: BEGIN in 0.08 seconds
+[0m10:45:00.020865 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:45:00.020865 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_second_dbt_model"} */
+
+  create view "cati"."landing_zone"."my_second_dbt_model__dbt_tmp" as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "cati"."landing_zone"."my_first_dbt_model"
+where id = 1
+  );
+[0m10:45:00.029841 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.01 seconds
+[0m10:45:00.033831 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:45:00.033831 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_second_dbt_model"} */
+alter table "cati"."landing_zone"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+[0m10:45:00.034829 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m10:45:00.037820 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: COMMIT
+[0m10:45:00.037820 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:45:00.037820 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: COMMIT
+[0m10:45:00.038818 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m10:45:00.040813 [debug] [Thread-1  ]: Using postgres connection "model.catidbt.my_second_dbt_model"
+[0m10:45:00.041811 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "catidbt-db", "target_name": "dev", "node_id": "model.catidbt.my_second_dbt_model"} */
+drop view if exists "cati"."landing_zone"."my_second_dbt_model__dbt_backup" cascade
+[0m10:45:00.041811 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.0 seconds
+[0m10:45:00.043804 [debug] [Thread-1  ]: finished collecting timing info
+[0m10:45:00.043804 [debug] [Thread-1  ]: On model.catidbt.my_second_dbt_model: Close
+[0m10:45:00.044804 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f976f3bb-c8c8-4f93-a66e-4978470afecf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964B549AC0>]}
+[0m10:45:00.044804 [info ] [Thread-1  ]: 2 of 2 OK created view model landing_zone.my_second_dbt_model .................. [[32mCREATE VIEW[0m in 0.14s]
+[0m10:45:00.046798 [debug] [Thread-1  ]: Finished running node model.catidbt.my_second_dbt_model
+[0m10:45:00.048792 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m10:45:00.048792 [debug] [MainThread]: Using postgres connection "master"
+[0m10:45:00.048792 [debug] [MainThread]: On master: BEGIN
+[0m10:45:00.048792 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m10:45:00.182437 [debug] [MainThread]: SQL status: BEGIN in 0.13 seconds
+[0m10:45:00.182437 [debug] [MainThread]: On master: COMMIT
+[0m10:45:00.182437 [debug] [MainThread]: Using postgres connection "master"
+[0m10:45:00.183434 [debug] [MainThread]: On master: COMMIT
+[0m10:45:00.183434 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m10:45:00.183434 [debug] [MainThread]: On master: Close
+[0m10:45:00.184432 [info ] [MainThread]: 
+[0m10:45:00.184432 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 0.95 seconds (0.95s).
+[0m10:45:00.186426 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m10:45:00.187424 [debug] [MainThread]: Connection 'list_cati' was properly closed.
+[0m10:45:00.187424 [debug] [MainThread]: Connection 'list_cati_landing_zone' was properly closed.
+[0m10:45:00.187424 [debug] [MainThread]: Connection 'model.catidbt.my_second_dbt_model' was properly closed.
+[0m10:45:00.197397 [info ] [MainThread]: 
+[0m10:45:00.197397 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m10:45:00.199392 [info ] [MainThread]: 
+[0m10:45:00.199392 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m10:45:00.200389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964B552F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964B578760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002964BD64040>]}
