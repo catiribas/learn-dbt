@@ -42,11 +42,11 @@ nodes:                                                  # list of child **Glossa
             users:                                                      # (optional) a list of user IDs
 			        - francisco.lozamillan@tui.com
               - Paul.Bruno@tui.com
-          domain: Finance
+          domain: "urn:li:domain:2af7beb9-a82e-4dd5-b8b3-19d589994c30"
         - name: Sub channel
           description: It refers to the place (digital or physical) where the purchase is completed, along with its related settings (such as catalog, currency, language, etc.). Examples include tuimusement.com/uk or Booking.com.
           owners:
             users:                                                      # (optional) a list of user IDs
 			        - francisco.lozamillan@tui.com
               - federica.ferrazzano@musement.com
-          domain: Distribution
+          domain: "urn:li:domain:b07f0cc7-b088-426b-88ab-07d4f9598db1"
