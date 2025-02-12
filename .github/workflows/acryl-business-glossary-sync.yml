@@ -23,5 +23,5 @@ jobs:
           enable_auto_id: "true"
           prune: "false"
 
-          datahub_gms_host: https://<customer>.acryl.io/gms
+          datahub_gms_host: https://data-catalog.sit.edp.tui.acryl.io/gms
           datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
