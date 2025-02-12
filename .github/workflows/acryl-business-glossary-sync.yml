@@ -3,7 +3,7 @@ name: Acryl Business Glossary Sync
 on:
   schedule:
     # Example: cron expression for 5:30am and 5:30pm UTC.
-    - cron: "*/15 * * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 permissions:
