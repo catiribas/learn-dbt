@@ -24,4 +24,4 @@ jobs:
           prune: "false"
 
           datahub_gms_host: https://data-catalog-internal.sit.edp.tui/api/gms
-          datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
+          datahub_gms_token: eyJhbGciOiJIUzI1NiJ9.eyJhY3RvclR5cGUiOiJVU0VSIiwiYWN0b3JJZCI6ImNhdGkucmliYXNAdHVpLmNvbSIsInR5cGUiOiJQRVJTT05BTCIsInZlcnNpb24iOiIyIiwianRpIjoiY2RhN2RmMjktMDc0Mi00YmZiLTljOTAtYmU0MDZhNzQwNzg4Iiwic3ViIjoiY2F0aS5yaWJhc0B0dWkuY29tIiwiZXhwIjoxNzQyMTIzMjQ1LCJpc3MiOiJkYXRhaHViLW1ldGFkYXRhLXNlcnZpY2UifQ.zYLllfKoPcYE0f19xCS-NXFA_XHV0YsDjWO2rdbODBw
