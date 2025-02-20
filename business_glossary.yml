@@ -7,46 +7,46 @@ owners:                                                 # owners contains two ne
     - Musement
 # url: "https://github.com/datahub-project/datahub/"      # (optional) external url pointing to where the glossary is defined externally, if applicable
 nodes:                                                  # list of child **GlossaryNode** objects. See **GlossaryNode** section below
-	- name: Musement                                                # name of the node
-	  description: Provides terms related to Musement domain    # description of the node
-	  owners:                                                       # (optional) owners contains 2 nested fields
-		groups:                                                     # (optional) a  list of group IDs
-		  - Musement
-	  nodes:                                                        # list of child **GlossaryNode** objects
-		- name: Behavioural Data                                                # name of the node
-		  description: Information extracted from the customer online behaviour on the online product purchasing process. # description of the node
-		  owners:                                                       # (optional) owners contains 2 nested fields
-			users:                                                      # (optional) a list of user IDs
-			  - francisco.lozamillan@tui.com
-		  source: Tracking
-		- name: Dimensions                                               # name of the node
-		  description: A set of data attributes based on business definitions created to cluster and provide detailed insights to served business needs.  # description of the node
-		  owners:                                                       # (optional) owners contains 2 nested fields
-			users:                                                      # (optional) a list of user IDs
-			  - francisco.lozamillan@tui.com
-		- name: KPI's                                                # name of the node
-		  description: Key performance indicators created by the combination of different Behavioural or/and Transactional Data and being filter also by dimensions or fields from Behavioural or/and Transactional Data.  # description of the node
-		  owners:                                                       # (optional) owners contains 2 nested fields
-			users:                                                      # (optional) a list of user IDs
-			  - francisco.lozamillan@tui.com
-		- name: Transactional Data                                                # name of the node
-		  description: Information extracted from the booking related to the customer and the product after the product purchase.    # description of the node
-		  owners:                                                       # (optional) owners contains 2 nested fields
-			users:                                                      # (optional) a list of user IDs
-			  - francisco.lozamillan@tui.com
-		  source: Core
+  - name: Musement                                                # name of the node
+    description: Provides terms related to Musement domain    # description of the node
+    owners:                                                       # (optional) owners contains 2 nested fields
+    groups:                                                     # (optional) a  list of group IDs
+      - Musement
+    nodes:                                                        # list of child **GlossaryNode** objects
+    - name: Behavioural Data                                                # name of the node
+      description: Information extracted from the customer online behaviour on the online product purchasing process. # description of the node
+      owners:                                                       # (optional) owners contains 2 nested fields
+      users:                                                      # (optional) a list of user IDs
+        - francisco.lozamillan@tui.com
+      source: Tracking
+    - name: Dimensions                                               # name of the node
+      description: A set of data attributes based on business definitions created to cluster and provide detailed insights to served business needs.  # description of the node
+      owners:                                                       # (optional) owners contains 2 nested fields
+      users:                                                      # (optional) a list of user IDs
+        - francisco.lozamillan@tui.com
+    - name: KPI's                                                # name of the node
+      description: Key performance indicators created by the combination of different Behavioural or/and Transactional Data and being filter also by dimensions or fields from Behavioural or/and Transactional Data.  # description of the node
+      owners:                                                       # (optional) owners contains 2 nested fields
+      users:                                                      # (optional) a list of user IDs
+        - francisco.lozamillan@tui.com
+    - name: Transactional Data                                                # name of the node
+      description: Information extracted from the booking related to the customer and the product after the product purchase.    # description of the node
+      owners:                                                       # (optional) owners contains 2 nested fields
+      users:                                                      # (optional) a list of user IDs
+        - francisco.lozamillan@tui.com
+      source: Core
       terms:
         - name: Market
           description: It refers to the origin of the customer or potential customer. In this case, we align this concept with what we call a "Source Market" at TUI. For example, TUI UK or TUI Nordics.
           owners:
             users:                                                      # (optional) a list of user IDs
-			        - francisco.lozamillan@tui.com
+              - francisco.lozamillan@tui.com
               - Paul.Bruno@tui.com
           domain: "urn:li:domain:2af7beb9-a82e-4dd5-b8b3-19d589994c30"
         - name: Sub channel
           description: It refers to the place (digital or physical) where the purchase is completed, along with its related settings (such as catalog, currency, language, etc.). Examples include tuimusement.com/uk or Booking.com.
           owners:
             users:                                                      # (optional) a list of user IDs
-			        - francisco.lozamillan@tui.com
+              - francisco.lozamillan@tui.com
               - federica.ferrazzano@musement.com
           domain: "urn:li:domain:b07f0cc7-b088-426b-88ab-07d4f9598db1"
