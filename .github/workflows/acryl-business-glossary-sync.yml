@@ -1,16 +1,12 @@
 # Put this in .github/workflows/acryl-business-glossary-sync.yml.
 name: Acryl Business Glossary Sync
-
 on:
   schedule:
     # Example: cron expression for 5:30am and 5:30pm UTC.
     - cron: "30 5,17 * * *"
-  #workflow_dispatch:
-
 permissions:
   contents: write
   pull-requests: write
-
 jobs:
   glossary-sync:
     runs-on: ubuntu-latest
