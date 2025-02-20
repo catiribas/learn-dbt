@@ -10,15 +10,14 @@ nodes:                                                  # list of child **Glossa
   - name: Musement                                                # name of the node
     description: Provides terms related to Musement domain    # description of the node
     owners:                                                       # (optional) owners contains 2 nested fields
-    groups:                                                     # (optional) a  list of group IDs
-      - Musement
+      groups:                                                     # (optional) a  list of group IDs
+        - Musement
     nodes:                                                        # list of child **GlossaryNode** objects
     - name: Behavioural Data                                                # name of the node
       description: Information extracted from the customer online behaviour on the online product purchasing process. # description of the node
       owners:                                                       # (optional) owners contains 2 nested fields
         users:                                                      # (optional) a list of user IDs
           - francisco.lozamillan@tui.com
-      source: "Tracking"
     - name: Dimensions                                               # name of the node
       description: A set of data attributes based on business definitions created to cluster and provide detailed insights to served business needs.  # description of the node
       owners:                                                       # (optional) owners contains 2 nested fields
@@ -34,7 +33,6 @@ nodes:                                                  # list of child **Glossa
       owners:                                                       # (optional) owners contains 2 nested fields
         users:                                                      # (optional) a list of user IDs
           - francisco.lozamillan@tui.com
-      source: "Core"
       terms:
         - name: Market
           description: It refers to the origin of the customer or potential customer. In this case, we align this concept with what we call a "Source Market" at TUI. For example, TUI UK or TUI Nordics.
