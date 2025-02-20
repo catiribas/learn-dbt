@@ -1,22 +1,2 @@
 # Put this in .github/workflows/acryl-business-glossary-sync.yml.
 name: Acryl Business Glossary Sync
-on:
-  schedule:
-    # Example: cron expression for 5:30am and 5:30pm UTC.
-    - cron: "30 9,15 * * *"
-  workflow_dispatch:
-permissions:
-  contents: write
-  pull-requests: write
-jobs:
-  glossary-sync:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run glossary sync
-        uses: acryldata/business-glossary-sync-action@main
-        with:    
-          business_glossary_file: ./business_glossary.yml
-          enable_auto_id: "true"
-          prune: "false"
-          datahub_gms_host: https://data-catalog-internal.sit.edp.tui/api/gms
-          datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
