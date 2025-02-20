@@ -1,0 +1,26 @@
+name: "Acryl Business Glossary Sync"
+on:
+  schedule:
+    # Example: cron expression for 5:30am and 5:30pm UTC.
+    - cron: "30 5,17 * * *"
+  workflow_dispatch: 
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  glossary-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run glossary sync
+        uses: acryldata/business-glossary-sync-action@main
+        with:
+          # TODO(developer): Update this with your config/credentials.
+          business_glossary_file: ./business_glossary.yml
+          enable_auto_id: "true"
+          prune: "false"
+
+          #datahub_gms_host: https://<customer>.acryl.io/gms
+          #datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
+          datahub_gms_host: "https://data-catalog-internal.sit.edp.tui/api/gms"
+          datahub_gms_token: "eyJhbGciOiJIUzI1NiJ9.eyJhY3RvclR5cGUiOiJVU0VSIiwiYWN0b3JJZCI6ImNhdGkucmliYXNAdHVpLmNvbSIsInR5cGUiOiJQRVJTT05BTCIsInZlcnNpb24iOiIyIiwianRpIjoiY2RhN2RmMjktMDc0Mi00YmZiLTljOTAtYmU0MDZhNzQwNzg4Iiwic3ViIjoiY2F0aS5yaWJhc0B0dWkuY29tIiwiZXhwIjoxNzQyMTIzMjQ1LCJpc3MiOiJkYXRhaHViLW1ldGFkYXRhLXNlcnZpY2UifQ.zYLllfKoPcYE0f19xCS-NXFA_XHV0YsDjWO2rdbODBw"
