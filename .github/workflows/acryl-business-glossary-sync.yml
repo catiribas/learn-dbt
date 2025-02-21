@@ -22,5 +22,5 @@ jobs:
 
           #datahub_gms_host: https://<customer>.acryl.io/gms
           #datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
-          datahub_gms_host: "https://data-catalog-internal.sit.edp.tui/api/gms"
+          datahub_gms_host: "https://data-catalog-internal.sit.edp.tui/api/graphql"
           datahub_gms_token: ${{ secrets.ACRYL_GMS_TOKEN }}
